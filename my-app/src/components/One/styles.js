@@ -4,17 +4,20 @@ export const Button = styled.button`
     margin-top: 20px;
     padding: 14px;
     border: none;
-    background-color: #fb0000;
+    border-radius: 10px;
+    background-color: #e8e127;
     text-align: center;
     color: black;
     cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
 
     &:active{
-        opacity: 0.3;
+        opacity: 0.9;
     }
 
     &:hover{
-        opacity: 0.6;
+        opacity: 0.9;
     }
 `
 

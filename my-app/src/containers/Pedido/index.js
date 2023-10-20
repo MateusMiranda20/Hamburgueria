@@ -6,7 +6,7 @@ import axios from 'axios'
 import Button from "../../components/One/styles";
 
 import { Container, H1, Image, ContainetIntens, User, Psnack, Pname} from './Styles';
-import Sacola from "../../assets/Sacola.png";
+import plankio from "../../assets/plankio.jpg"
 import Lixeira from "../../assets/lixeira.png";
 
 
@@ -42,7 +42,7 @@ function Pedido() {
 
   return (
     <Container>
-      <Image alt="Logo-image" src={Sacola} />
+      <Image alt="Logo-image" src={plankio} />
       <ContainetIntens>
         <H1>Pedidos</H1>
         <ul>

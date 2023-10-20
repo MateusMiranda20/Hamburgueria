@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 
 export const Container = styled.div`
-    background: #000;
+    background: #002f89;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -11,7 +11,7 @@ export const Container = styled.div`
 `
 
 export const H1 = styled.h1`
-    color: #fff;
+    color: #e8e127;
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 29px;
@@ -27,10 +27,10 @@ export const ContainetIntens = styled.div`
 
 export const Image = styled.img`
     margin-top: 50px;
-    width: 12rem;
+    width: 16rem;
 `
 export const InputComida = styled.h3`
-    color: #fff;
+    color: #e8e127;
     font-size: 18px;
     font-weight: 700;
     line-height: 22px;
@@ -45,7 +45,7 @@ export const Input = styled.input`
    margin-bottom: 25px;
 `
 export const InputName = styled.h3`
-    color: #fff;
+    color: #e8e127;
     font-size: 18px;
     font-weight: 700;
     line-height: 22px;

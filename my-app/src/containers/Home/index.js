@@ -6,7 +6,7 @@ import axios from 'axios';
 import Button from "../../components/One/styles";
 
 import { Container, H1, Image, InputComida, Input, InputName, ContainetIntens, } from './Styles';
-import Logo from "../../assets/Logo.png";
+import esponja from "../../assets/esponja.jpg";
 
 function App() {
 
@@ -34,7 +34,7 @@ function App() {
 
   return (
     <Container>
-      <Image alt="Logo-image" src={Logo} />
+      <Image alt="Logo-image" src={esponja} />
       <ContainetIntens>
         <H1>Faça seu pedido!</H1>
         
