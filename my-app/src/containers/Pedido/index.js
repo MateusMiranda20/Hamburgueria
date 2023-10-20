@@ -31,7 +31,7 @@ function Pedido() {
 
   async function deleteUser(userId) {
 
-    await axios.delete(`https://api-registro-clientes-amv4.vercel.app/pedido/${userId}`)
+    await axios.delete(`${baseUrl}/pedido${userId}`)
 
     const newUser = users.filter((user) => user.id !== userId)
 
