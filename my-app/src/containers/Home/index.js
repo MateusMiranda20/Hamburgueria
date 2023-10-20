@@ -16,8 +16,10 @@ function App() {
   const inputComida = useRef();
   const inputName = useRef();
 
+  const baseUrl = "https://api-registro-clientes-amv4.vercel.app"
+
   async function userAdd(){
-    const { data: newUsers } = await axios.post("http://localhost:3005/Pedido",{
+    const { data: newUsers } = await axios.post(`${baseUrl}/pedido`,{
     snack: inputComida.current.value,
     name: inputName.current.value,
     });

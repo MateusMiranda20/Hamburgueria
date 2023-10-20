@@ -15,11 +15,13 @@ function Pedido() {
 
   const [users, setUsers] = useState([]);
   const navigate = useNavigate()
+
+  const baseUrl = "https://api-registro-clientes-amv4.vercel.app"
  
   useEffect(() => {
     
     async function fetchUsers() {
-      const { data: newUser } = await axios.get("http://localhost:3005/pedido");
+      const { data: newUser } = await axios.get(`${baseUrl}/pedido`);
       setUsers( newUser);
     }
 
@@ -29,7 +31,7 @@ function Pedido() {
 
   async function deleteUser(userId) {
 
-    await axios.delete(`http://localhost:3005/pedido/${userId}`)
+    await axios.delete(`https://api-registro-clientes-amv4.vercel.app/pedido/${userId}`)
 
     const newUser = users.filter((user) => user.id !== userId)
 
